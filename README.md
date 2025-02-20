@@ -1,0 +1,2 @@
+# React useEffect Infinite Loop Bug
+This example demonstrates a common mistake in using React's `useEffect` hook, leading to an infinite loop. The `setCount` function is included in the dependency array, causing the effect to run continuously, leading to an infinite re-render loop.  The solution shows how to correct this by removing the function from the dependency array or using a value that only changes when a state variable changes. 
